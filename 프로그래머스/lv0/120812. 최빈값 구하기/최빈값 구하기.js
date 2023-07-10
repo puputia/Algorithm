@@ -30,7 +30,11 @@ function solution(array) {
         cnt = cnt+1;
     }
     if(isDupChoi) return -1;
-    return choi;
+    
+    else {
+        return choi;
+    }
+    
 }
 
 // 1. 앞에서부터 차례대로 원소를 확인하며 갯수를 센다.
