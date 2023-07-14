@@ -1,6 +1,14 @@
 function solution(nums) {
-  const max = nums.length / 2;
-  const arr = [...new Set(nums)];
-
-  return arr.length > max ? max : arr.length
+    var answer = [];
+    var maxPocket =  nums.length / 2;
+        
+    for(let i = 0; i < nums.length; i++) {
+        if(answer.length < maxPocket) {
+            if(!answer.includes(nums[i])) {
+                answer.push(nums[i]);
+            }
+        }
+    }
+    
+    return answer.length;    
 }
