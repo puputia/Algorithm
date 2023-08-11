@@ -8,5 +8,5 @@ function solution(citations) {
 
 }
 
-console.log(solution([47, 42, 32, 28, 24, 22, 17, 15, 10, 10, 8]));
-console.log(solution([3, 0, 6, 1, 5]));
+// console.log(solution([47, 42, 32, 28, 24, 22, 17, 15, 10, 10, 8]));
+// console.log(solution([3, 0, 6, 1, 5]));
