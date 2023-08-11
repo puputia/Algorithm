@@ -1,10 +1,7 @@
 function solution(s) {
-    var answer = true;
-    if(s.length === 4 || s.length === 6 || isNumeric(s)){
-        answer = true;
+    if(s.length != 4 && s.length != 6) return false;
+    for(var i = 0; i < s.length; i++) {
+        if(isNaN(Number(s[i]))) return false;
     }
-    else {
-        answer = isNaN(s);
-    }
-    return answer;
+    return true;
 }
