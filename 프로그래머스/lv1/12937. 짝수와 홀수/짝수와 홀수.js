@@ -1,10 +1,12 @@
 function solution(num) {
-    var answer = "";
+    var answer = '';
     if(num % 2 === 0) {
-        answer = "Even";
-    }
+         answer = "Even";
+        }
+       
     else {
-        answer = "Odd";
-    }
+         answer = "Odd";
+        }
+    
     return answer;
 }
